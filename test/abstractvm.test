@@ -1,0 +1,337 @@
+  echo "---------TEST RAND--------" >> log.file
+  echo "" >> log.file
+
+  echo "--file rand--" >> log.file
+  ../abstractVM rand &>> log.file &
+  waitProcess
+
+  echo "--file rand2--" >> log.file
+  ../abstractVM rand2 &>> log.file &
+  waitProcess
+
+  echo "--file rand3--" >> log.file
+  ../abstractVM rand3 &>> log.file &
+  waitProcess
+
+  echo "--file rand4--" >> log.file
+  ../abstractVM rand4 &>> log.file &
+  waitProcess
+
+  echo "--file rand5--" >> log.file
+  ../abstractVM rand5 &>> log.file &
+  waitProcess
+
+   echo "--file rand6--" >> log.file
+   ../abstractVM rand6 &>> log.file &
+   waitProcess
+
+   echo "--file rand7--" >> log.file
+  ../abstractVM rand7 &>> log.file &
+  waitProcess
+
+  echo "--file rand8--" >> log.file
+  ../abstractVM rand8 &>> log.file &
+  waitProcess
+
+  echo "--file rand9--" >> log.file
+  ../abstractVM rand9 &>> log.file &
+  waitProcess
+
+  echo "--file rand10--" >> log.file
+  ../abstractVM rand10 &>> log.file &
+  waitProcess
+
+  echo "--file rand11--" >> log.file
+  ../abstractVM rand11 &>> log.file &
+  waitProcess
+
+  echo "--file rand12--" >> log.file
+  ../abstractVM rand12 &>> log.file &
+  waitProcess
+
+  echo "--file rand13--" >> log.file
+  ../abstractVM rand13 &>> log.file &
+  waitProcess
+
+  echo "--file rand14--" >> log.file
+  ../abstractVM rand14 &>> log.file &
+  waitProcess
+
+  echo "--file rand15--" >> log.file
+  ../abstractVM rand15 &>> log.file &
+  waitProcess
+
+  echo "--file rand16--" >> log.file
+  ../abstractVM rand16 &>> log.file &
+  waitProcess
+
+  echo "--file rand17--" >> log.file
+  ../abstractVM rand17 &>> log.file &
+  waitProcess
+
+  echo "--file rand18--" >> log.file
+  ../abstractVM rand18 &>> log.file &
+  waitProcess
+
+  echo "--file rand19--" >> log.file
+  ../abstractVM rand19 &>> log.file &
+  waitProcess
+
+  echo "--file rand20--" >> log.file
+  ../abstractVM rand20 &>> log.file &
+  waitProcess
+
+  echo "--file rand21--" >> log.file
+ ../abstractVM rand21 &>> log.file &
+  waitProcess
+
+  echo "--file rand22--" >> log.file
+  ../abstractVM rand22 &>> log.file &
+  waitProcess
+
+  echo "" >> log.file
+  echo "---------TEST ERROR--------" >> log.file
+  echo "" >> log.file
+
+
+  echo "--file err1--" >> log.file
+  ../abstractVM err1 &>> log.file &
+  waitProcess
+
+  echo "--file err2--" >> log.file
+  ../abstractVM err2 &>> log.file &
+  waitProcess
+
+  echo "--file err3--" >> log.file
+  ../abstractVM err3 &>> log.file &
+  waitProcess
+
+  echo "--file err4--" >> log.file
+  ../abstractVM err4 &>> log.file &
+  waitProcess
+
+  echo "--file err5--" >> log.file
+  ../abstractVM err5 &>> log.file &
+  waitProcess
+
+  echo "--file err6--" >> log.file
+  ../abstractVM err6 &>> log.file &
+  waitProcess
+
+  echo "--file err7--" >> log.file
+  ../abstractVM err7 &>> log.file &
+  waitProcess
+
+  echo "--file err8--" >> log.file
+  ../abstractVM err8 &>> log.file &
+  waitProcess
+
+  echo "--file err9--" >> log.file
+  ../abstractVM err9 &>> log.file &
+  waitProcess
+
+  echo "--file err10--" >> log.file
+  ../abstractVM err10 &>> log.file &
+  waitProcess
+
+  echo "--file err11--" >> log.file
+  ../abstractVM err11 &>> log.file &
+  waitProcess
+
+  echo "--file err12--" >> log.file
+  ../abstractVM err12 &>> log.file &
+  waitProcess
+
+  echo "--file err13--" >> log.file
+  ../abstractVM err13 &>> log.file &
+  waitProcess
+
+  echo "--file err14--" >> log.file
+  ../abstractVM err14 &>> log.file &
+  waitProcess
+
+  echo "--file err15--" >> log.file
+  ../abstractVM err15 &>> log.file &
+  waitProcess
+
+  echo "--file err16--" >> log.file
+  ../abstractVM err16 &>> log.file &
+  waitProcess
+
+  echo "--file err17--" >> log.file
+  ../abstractVM err17 &>> log.file &
+  waitProcess
+
+  echo "--file err18--" >> log.file
+  ../abstractVM err18 &>> log.file &
+  waitProcess
+
+  echo "--file err19--" >> log.file
+  ../abstractVM err19 &>> log.file &
+  waitProcess
+
+  echo "--file err20--" >> log.file
+  ../abstractVM err20 &>> log.file &
+  waitProcess
+
+  echo "--file err21--" >> log.file
+  ../abstractVM err21 &>> log.file &
+  waitProcess
+
+  echo "--file err22--" >> log.file
+  ../abstractVM err22 &>> log.file &
+  waitProcess
+
+  echo "--file err23--" >> log.file
+  ../abstractVM err23 &>> log.file &
+  waitProcess
+
+  echo "--file err24--" >> log.file
+  ../abstractVM err24 &>> log.file &
+  waitProcess
+
+  echo "--file err25--" >> log.file
+  ../abstractVM err25 &>> log.file &
+  waitProcess
+
+  echo "--file err26--" >> log.file
+  ../abstractVM err26 &>> log.file &
+  waitProcess
+
+  echo "--file err27--" >> log.file
+  ../abstractVM err27 &>> log.file &
+  waitProcess
+
+  echo "--file err28--" >> log.file
+  ../abstractVM err28 &>> log.file &
+  waitProcess
+
+  echo "--file err29--" >> log.file
+  ../abstractVM err29 &>> log.file &
+  waitProcess
+
+  echo "--file err30--" >> log.file
+  ../abstractVM err30 &>> log.file &
+  waitProcess
+
+  echo "--file err31--" >> log.file
+  ../abstractVM err31 &>> log.file &
+  waitProcess
+
+  echo "--file err32--" >> log.file
+  ../abstractVM err32 &>> log.file &
+  waitProcess
+
+  echo "--file err33--" >> log.file
+  ../abstractVM err33 &>> log.file &
+  waitProcess
+
+  echo "--file err34--" >> log.file
+  ../abstractVM err34 &>> log.file &
+  waitProcess
+
+  echo "--file err35--" >> log.file
+  ../abstractVM err35 &>> log.file &
+  waitProcess
+
+  echo "--file err36--" >> log.file
+  ../abstractVM err36 &>> log.file &
+  waitProcess
+
+  echo "--file err37--" >> log.file
+  ../abstractVM err37 &>> log.file &
+  waitProcess
+
+  echo "--file err38--" >> log.file
+  ../abstractVM err38 &>> log.file &
+  waitProcess
+
+  echo "" >> log.file
+  echo "-------TEST OVER/UNDERFLOW-----" >> log.file
+  echo "" >> log.file
+
+  echo "--file overflow--" >> log.file
+  ../abstractVM overflow &>> log.file &
+  waitProcess
+
+  echo "--file overflow1--" >> log.file
+  ../abstractVM overflow1 &>> log.file &
+  waitProcess
+
+  echo "--file overflow2--" >> log.file
+  ../abstractVM overflow2 &>> log.file &
+  waitProcess
+
+  echo "--file overflow3--" >> log.file
+  ../abstractVM overflow3 &>> log.file &
+  waitProcess
+
+
+  echo "--file overflow4--" >> log.file
+  ../abstractVM overflow4 &>> log.file &
+  waitProcess
+
+  echo "--file overflow5--" >> log.file
+  ../abstractVM overflow5 &>> log.file &
+  waitProcess
+
+  echo "--file overflow6--" >> log.file
+  ../abstractVM overflow6 &>> log.file &
+  waitProcess
+
+  echo "--file overflow7--" >> log.file
+  ../abstractVM overflow7 &>> log.file &
+  waitProcess
+
+  echo "--file overflow8--" >> log.file
+  ../abstractVM overflow8 &>> log.file &
+  waitProcess
+  
+  echo "--file overflow9--" >> log.file
+  ../abstractVM overflow9 &>> log.file &
+  waitProcess
+
+  echo "--file overflow10--" >> log.file
+  ../abstractVM overflow10 &>> log.file &
+  waitProcess
+
+  echo "--file overflow11--" >> log.file
+  ../abstractVM overflow11 &>> log.file &
+  waitProcess
+
+  echo "--file overflow12--" >> log.file
+  ../abstractVM overflow12 &>> log.file &
+  waitProcess
+
+  echo "--file overflow13--" >> log.file
+  ../abstractVM overflow13 &>> log.file &
+  waitProcess
+
+  echo "" >> log.file
+  echo "---------TEST TEST--------" >> log.file
+  echo "" >> log.file
+
+  echo "--file test1--" >> log.file
+ ../abstractVM test1 &>> log.file &
+ waitProcess
+
+  echo "--file test2--" >> log.file
+ ../abstractVM test2 &>> log.file &
+ waitProcess
+
+  echo "--file test3--" >> log.file
+ ../abstractVM test3 &>> log.file &
+  waitProcess
+
+  echo "--file test4--" >> log.file
+  ../abstractVM < test4 &>> log.file &
+  waitProcess
+
+  echo "--file test5--" >> log.file
+  ../abstractVM < test5 &>> log.file &
+  waitProcess
+
+  echo "--file test6--" >> log.file
+ ../abstractVM < test6 &>> log.file &
+ waitProcess
+

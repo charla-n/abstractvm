@@ -1,0 +1,5 @@
+push int32(32)
+push int16(16)
+add
+mul
+push int16(24)

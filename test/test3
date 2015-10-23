@@ -1,0 +1,90 @@
+push int8(64)
+push int8(36)
+add				;; = 100
+assert int8(100)          	; do		 assert		=)   
+dump   		     		;; do		     DUMP
+pop				;; = stack empty
+dump		  		;; do	 dump	   
+push int8(60)
+push int8(67)			;do push		int8
+add				;; = 127
+push int32(32000)
+add				;; = 32127
+assert int32(32127)
+push int8(97)
+print				;; = a
+pop
+assert int32(32127)
+dump
+push int32(34127)
+sub				;; = 2000
+dump
+assert int32(2000)
+dump
+push int8(2)
+mul				;; = 4000
+dump
+assert int32(4000)
+push int32(8000000)
+div				;; = 2000
+dump
+assert int32(2000)
+push int16(500)
+mod				;; = 500
+dump
+assert int32(500)
+push float(1.123456789)
+add				;; = 501.123
+dump
+assert float(501.123)
+push int16(602)
+sub				;; = 100.877
+dump
+assert float(100.877)
+dump
+push double(0.123)
+add				;; = 101
+assert double(101)
+dump
+push int8(42)
+dump
+add				;; = 143
+dump
+pop				;; = stack empty
+push int8(42)
+push double(58.58)
+add				;; = 100.58
+assert double(100.58)
+pop				;; stack empty
+dump
+push int8(65)
+push int8(72)
+push int8(67)
+push int8(82)
+push int8(65)
+push int8(77)
+print
+pop
+print
+pop
+print
+pop
+print
+pop
+print
+pop
+print
+pop				;; print MARCHA :) :) :) :)
+dump				;; empty stack
+push double(42)
+dump
+push double(42.42)
+add				;; = 84.42
+dump
+push int32(84)
+sub				;; = -0.42
+dump
+push int8(1)
+add				;; = 0.58
+dump
+exit

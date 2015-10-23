@@ -1,0 +1,3 @@
+push int32(78)
+pop
+double pop dump

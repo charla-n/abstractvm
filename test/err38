@@ -1,0 +1,6 @@
+push int32(32)
+push int16(16) ;;
+push int16(24)
+     ;;
+exit
+;;

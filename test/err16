@@ -1,0 +1,4 @@
+push int32(78)
+push float(99.9999)
+mod
+and
